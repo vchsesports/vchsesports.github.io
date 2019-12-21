@@ -1,0 +1,10 @@
+
+---------VCS.NET REDIRECTS---------
+404.html
+index.html
+
+---------REDIRECTS---------
+codeofconduct.html
+discord.html
+socials.html	
+youtube.html	
