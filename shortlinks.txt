@@ -8,3 +8,4 @@ codeofconduct.html
 discord.html
 socials.html	
 youtube.html	
+jersey.html
