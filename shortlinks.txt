@@ -9,3 +9,5 @@ discord.html
 socials.html	
 youtube.html	
 jersey.html
+springmajors2020.html
+aimtourney2.html
