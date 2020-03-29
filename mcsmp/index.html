@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-
+<!-- If you are interested in website
+development for VCHS Esports, pleaseDM our ModMail 
+Discord bot! -->
 <title>VCHS Esports Minecraft Server</title>
 <link rel="icon" 
       type="image/png" 
       href="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/s320x320/57648935_1150144058488872_8386105795003023360_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ohc=2FN6wVCiO1kAX9xS0Hu&oh=0c5d2055c0619ead19683ca0de333078&oe=5ECEFFC5"">
 <html>
 <head>
+  <!-- Font family -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700&display=swap" rel="stylesheet"> 
+  <head>
+  </head>
 <style>
 
+/* Background image */
 body {
    background-image: url('../assets/images/mc_background.png');
 }
 
-
+/* Apply font to text class */
 .text {
   font-family: 'Ubuntu', sans-serif;
   /* text-align: center; */
 }
 
-
-
-.header {
-  background-color: #073E68;
-}
-
-.myButton {
-	background-color:#073E68;
-  
-	border-radius:3px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:15px;
-	padding:9px 23px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #263666;
-}
-
+/* Center anything we need with this class */
 .center {
   display: block;
   margin-left: auto;
@@ -45,18 +33,9 @@ body {
   text-align: center;
 }
 
-.myButton:hover {
-	background-color:#555;
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
+/* Minecraft item button zoome effect */
 .zoom {
-  transition: transform .2s; /* Animation */
+  transition: transform .4s; /* Animation */
 }
 
 .zoom:hover {
@@ -65,25 +44,63 @@ body {
   transform: scale(1.5); 
 }
 
+/* Title Box */
+.box {
+  margin-top: 30px;
+  padding:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+/* Hover text explanation */
+#help-text {
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 5px;
+  display:block
+}
+
+/* Bottom right help text */
+.help-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+} 
+
 </style>
 </head>
 <body>
-<div class="header">
-  <img src="https://cdn.discordapp.com/attachments/602626672247832787/680642276678303764/wh.png" alt="VCHS Esports Logo" width="250" class="center"> 
-  <b><u><h2 class="text center" style="color:white">Minecraft Server Info</h2></u></b>
-  
+
+
+  <!-- Title -->
+<div class="center text box">
+  <img src="../assets/logos/white.png" alt="" style="width:35%;">
+  <h1 style="color: white;">Minecraft SMP Info</h1>
+  <div id="help-div"><p>What is an SMP?</p> <span id="help-text" class="text">SMP stands for Survival Multiplayer. This is the Minecraft survival mode, but in multiplayer. This means you can play with all your friends and the VCHS community!</span></div>
 </div>
 
-<!-- <img src="https://gamepedia.cursecdn.com/minecraft_gamepedia/b/ba/Book_and_Quill.png" class=center> -->
+
+<!-- Item Buttons -->
 <div class=center>
   <br>
 <a href="https://vchsesports.net/mcserver/rules" alt="" target="_blank" class=zoom style="display: inline-block; width: 160px; height: 160px; text-align:center; background-image: url('https://gamepedia.cursecdn.com/minecraft_gamepedia/b/ba/Book_and_Quill.png');"></a>
 <h1 class=text style="color:white">Rules</h1>
-<br>
-<br>
 <a href="https://vchsesports.net/mcserver/whitelist" alt="" target="_blank" class=zoom style="display: inline-block; width: 160px; height: 160px; text-align:center; background-image: url('https://vignette.wikia.nocookie.net/minecraft/images/b/b2/Paper.png/revision/latest?cb=20190831174110');"></a>
 <h1 class=text style="color:white">Whitelist Form</h1>
-
 </div>
 
+<!-- Help message -->
+<div class="help-block text center">
+  <h4>Questions?</h4>
+  <p>DM us on Instagram <a href="https://instagram.com/vchsesports" target="_blank" style="color: #FFFFFF">@vchsesports</a></p>
+</div>
 </body>
